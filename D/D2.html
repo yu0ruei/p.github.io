@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家醫登記</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.2em;
+            color: #ffffff;
+            background-color: #3498db;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        /* 媒體查詢: 當屏幕寬度小於768px時 */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .content {
+                padding: 10px;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .button {
+                font-size: 1em;
+                padding: 8px;
+            }
+        }
+
+        /* 媒體查詢: 當屏幕寬度小於480px時 */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.2em;
+            }
+
+            .content {
+                padding: 8px;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+
+            .button {
+                font-size: 0.9em;
+                padding: 6px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>家醫登記</h1>
+    <h1>Family Doctor Registration</h1>
+    <div class="content">
+        <p>此功能可讓民眾登記家庭醫師。您可以在三天內隨意更換醫師，但之後只能每三個月更換一次醫師。</p>
+        <p class="warning" style="color: red;">警告：三天內可任意更換醫師，三天後只能每三個月更換一次。</p>
+        <a href="javascript:history.back()" class="button">返回上一頁</a>
+
+    </div>
+</body>
+
+</html>

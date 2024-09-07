@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家庭醫生制度</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #2c3e50;
+            font-size: 2.5em;
+            /* 調整字體大小 */
+        }
+
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 10px;
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            text-align: center;
+            font-size: 2em;
+            /* 調整字體大小 */
+        }
+
+        .intro {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 90%;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .images-row {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+            width: 45%;
+            /* 設定為百分比，以便在小螢幕上顯示兩個圖片 */
+            max-width: 200px;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .image-container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            /* 調整圖片高度以保持比例 */
+            object-fit: cover;
+        }
+
+        .image-container a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .image-container p {
+            margin: 8px 0;
+            font-size: 1em;
+            /* 調整字體大小 */
+            color: #2c3e50;
+        }
+
+        /* 媒體查詢: 當屏幕寬度小於768px時 */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .intro {
+                max-width: 95%;
+            }
+
+            .image-container {
+                width: 45%;
+                /* 在較小螢幕上顯示兩個圖片 */
+            }
+        }
+
+        /* 媒體查詢: 當屏幕寬度小於480px時 */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            .images-row {
+                flex-direction: column;
+                /* 垂直排列圖片 */
+                align-items: center;
+            }
+
+            .image-container {
+                width: 90%;
+                /* 在非常小的螢幕上顯示單個圖片 */
+                margin-bottom: 20px;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>家醫平台網站</h1>
+    <h1>Family Doctor Platform Website</h1>
+
+
+    <h2>網站介紹 Website Introduction</h2>
+
+    <div class="intro">
+        <p>
+            該網站提供實體與線上登記及預約家庭醫師的服務，方便民眾進行醫療資源的合理利用。透過我們的平台，您可以輕鬆找到附近的家庭醫師，並進行便捷的線上預約。無論您需要定期健康檢查、慢性病管理，還是其他醫療服務，我們的系統都能夠提供全面的支援。我們的平台還可以與LINE
+            Bot無縫互通，使用者可以透過LINE進行與網站相同的操作，包括查找家庭醫師、預約門診等功能。這使得使用過程更加方便，無論您是習慣使用網站還是LINE，皆可輕鬆完成醫療需求。我們致力於加強醫療信息系統的整合，透過先進的技術手段，實現醫療資料的無縫對接和實時更新。這不僅提高了服務的效率，也增強了系統的可靠性和準確性。此外，我們不斷努力提高服務的可及性，確保每位用戶都能輕鬆獲得所需的醫療服務。無論您身處何地，我們都會提供便捷的服務途徑，讓每位用戶都能享受到高品質的醫療服務。
+        </p>
+        <a href="https://lin.ee/hL3XZdy">https://lin.ee/hL3XZdy</a><br>
+        <img src="Q.png" alt="Q Image" class="q-image">
+
+    </div>
+
+    <h2>功能 Features</h2>
+    <div class="images-row">
+        <div class="image-container">
+            <a href="D1.html">
+                <img src="d1.jpg" alt="圖片1描述">
+                <p>評價查詢</p>
+                <p>Review Inquiry</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="D2.html">
+                <img src="d2.jpg" alt="圖片2描述">
+                <p>家醫登記</p>
+                <p>Family Doctor Registration</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="D3.html">
+                <img src="d3.jpg" alt="圖片3描述">
+                <p>實體看診預約</p>
+                <p>In-person Appointment</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="D4.html">
+                <img src="d4.jpg" alt="圖片4描述">
+                <p>線上看診預約</p>
+                <p>Online Appointment</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
